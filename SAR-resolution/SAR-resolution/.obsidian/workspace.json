@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3849e7a0a14241b1",
+        "id": "61be9a6d2aa983ea",
         "type": "tabs",
         "children": [
           {
-            "id": "d5d5e935451e74ab",
+            "id": "74e15080c1fd4e0a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SAR-resolution/SAR-Operation Principle.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SAR-resolution/SAR-Operation Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SAR-resolution/SAR-Operation Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,25 +118,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SAR-resolution/SAR-Operation Principle.md"
-              }
-            }
-          },
-          {
-            "id": "9dae4ef3c7d480d6",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,20 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5d5e935451e74ab",
+  "active": "74e15080c1fd4e0a",
   "lastOpenFiles": [
-    "figures and graphs/Figure 3. Geometry of a side looking aperture radar.png",
-    "SAR-resolution/SAR-Operation Principle.md",
-    "SAR-resolution/Supplemental formulas.md",
-    "figures and graphs/Figure 2. Imaging Radar Geometry.png",
-    "Supplemental formulas.md",
     "SAR-Operation Principle.md",
-    "SAR-resolution/Figure 2. Imaging Radar Geometry.png",
-    "figures and graphs",
-    "SAR-resolution",
-    "SAR-resolution",
+    "Figure 2. Imaging Radar Geometry.png",
+    "Supplemental formulas.md",
     "Untitled.canvas",
     "Untitled.md",
-    "2024-02-03.md"
+    "2024-02-03.md",
+    "Untitled"
   ]
 }
