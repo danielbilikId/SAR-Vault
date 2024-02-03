@@ -4,14 +4,21 @@ If a radar antenna, which amplifies the transmitted and received signal, is carr
 
 ![[figures and graphs/Figure 2. Imaging Radar Geometry.png]]
 
-Spatial resolution, the ability to resolve objects on the ground, differs in the range direction (perpendicular to the flight direction) compared to the azimuth direction (parallel to the flight direction). In “real aperture radar,” the range resolution is defined by the width of the pulses transmitted from the antenna. The azimuth resolution is determined by the width of the beam’s footprint on the ground, and the width of the beam is inversely proportional to the antenna length. A short antenna length corresponds to a wide beamwidth (beam footprint on the ground). Because flying an antenna large enough to generate a reasonable azimuth resolution, in space, is prohibitive, this limits the spatial resolution in the azimuth direction. The development of advanced processing algorithms solved this problem, leading to a new generation of imaging radars called Synthetic Aperture Radar.
+Spatial resolution, the ability to resolve objects on the ground, differs in the range direction (perpendicular to the flight direction) compared to the azimuth direction (parallel to the flight direction). In “real aperture radar,” the range resolution is defined by the width of the pulses transmitted from the antenna. The azimuth resolution is determined by the width of the beam’s footprint on the ground, and the width of the beam is inversely proportional to the antenna length. A short antenna length corresponds to a wide beam-width (beam footprint on the ground). Because flying an antenna large enough to generate a reasonable azimuth resolution, in space, is prohibitive, this limits the spatial resolution in the azimuth direction. The development of advanced processing algorithms solved this problem, leading to a new generation of imaging radars called Synthetic Aperture Radar.
 
 ## Range Resolution for RAR: 
 
-> Range is the direction perpendicular to flight path of the aircraft. The vertical beamwidth $θ_v$ is determined by the wavelength $λ$ and antenna height $W_a$  - its the same as antenna length in the direction that its pointing. for a dipole this would be $L_a$ that 
->> so that: $θ_v$ = $λ$/$W_a$ 
-	the width on the ground ("Swath") is calculated: 
-	
+Range is the direction perpendicular to flight path of the aircraft. The vertical beam-width $θ_v$ is determined by the wavelength $λ$ and antenna height $W_a$  - its the same as antenna length in the direction that its pointing. for a dipole this would be $L_a$ 
+so that: 
+	$θ_v$ = $λ$/$W_a$ 
+the width on the ground ("Swath") is calculated:
+	$W_g$   ≈ $λR_m/(W_a cos(η))$ 
+	- where $W_g$ is the swath width 
+	- $R_m$ is the slant range (distance from the antenna to the middle of the swath)
+	-  $W_a$ is the antenna length
+	- η is the look angle. 
+
+![[Figure 3. Geometry of a side looking aperture radar.png]]
 
 
 >A Synthetic Aperture Radar is an imaging radar mounted on a moving platform. Similar to a conventional radar, electromagnetic waves are sequentially transmitted and the backscattered echoes are collected by the radar antenna. In the case of SAR the consecutive time of transmission/reception translates into different positions due to the platform movement.
