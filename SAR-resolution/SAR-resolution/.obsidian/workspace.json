@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "315344828fea184b",
+        "id": "61be9a6d2aa983ea",
         "type": "tabs",
         "children": [
           {
-            "id": "d4529c2ec2b1a02a",
+            "id": "74e15080c1fd4e0a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,19 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4529c2ec2b1a02a",
+  "active": "74e15080c1fd4e0a",
   "lastOpenFiles": [
-    "SAR-resolution/Supplemental formulas.md",
-    "Supplemental formulas.md",
     "SAR-Operation Principle.md",
-    "SAR-resolution/SAR-Operation Principle.md",
-    "SAR-resolution/Figure 2. Imaging Radar Geometry.png",
-    "figures and graphs",
-    "figures and graphs/Figure 2. Imaging Radar Geometry.png",
-    "SAR-resolution",
-    "SAR-resolution",
+    "Figure 2. Imaging Radar Geometry.png",
+    "Supplemental formulas.md",
     "Untitled.canvas",
     "Untitled.md",
-    "2024-02-03.md"
+    "2024-02-03.md",
+    "Untitled"
   ]
 }
