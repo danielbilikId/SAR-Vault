@@ -1,10 +1,14 @@
 
-## 1)  for SLAR (side looking antenna radar) : 
-## $θ_a = λ/d_a$
-- ### Where *λ* = Wavelength ,
-- ## $d_a$  =  antenna length 
+## for SLAR (side looking antenna radar) : 
+$$
+\theta_a = \frac{\lambda}{d_a}
+$$
+-  Where $\lambda$ = Wavelength ,
+- $d_a$  =  antenna length 
 
-## 2) the azimuth resolution for SLAR: 
-## $δ_a$ = $λr_0/d_a$ = $θ_a  r_0$ 
+## the azimuth resolution for SLAR: 
+$$
+\delta_a = \lambda \frac {r_0}{d_a} = \theta_a  \cdot r_0 
+$$ 
 
 
